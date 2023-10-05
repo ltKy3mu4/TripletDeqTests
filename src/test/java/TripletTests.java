@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class TripletTests {
 
-    private Deque<String> tQueue = new ArrayDeque<>();
+    private Deque<String> tQueue;
     private Containerable cQueue;
 
     @Test
