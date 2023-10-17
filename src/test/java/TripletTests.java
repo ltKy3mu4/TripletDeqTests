@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class TripletTests {
 
     private Deque<String> tQueue;
-    private Containerable cQueue;
+    private Containerable cQueue = (Containerable) tQueue;
 
     @Test
     void addTest(){
