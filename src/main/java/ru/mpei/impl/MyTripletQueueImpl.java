@@ -16,7 +16,7 @@ public class MyTripletQueueImpl<T> implements Deque<T>, Containerable {
         MyContainer<T> ref = firstContainer;
         int counter = 0;
         while (cIndex!=counter){
-            ref = firstContainer.next;
+            ref = ref.next;
             counter++;
         }
         return ref.data;
